@@ -14,4 +14,4 @@ RUN chmod 757 -R  /usr/local/bin/af/  \
    && mkdir -p /opt/log/af  \
    && chmod 757 -R /opt/log/af
 
-ENTRYPOINT ["/usr/local/bin/af/cc","serve","-c/usr/local/bin/af/cmd/server/config/config.yaml"]
+# ENTRYPOINT ["/usr/local/bin/af/cc","serve","-c/usr/local/bin/af/cmd/server/config/config.yaml"]
